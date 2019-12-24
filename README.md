@@ -1,6 +1,13 @@
-### IR Entone to HDMI Switch gatewat ###
-This code is used to translate the signal from an Entone (T-Mobile settopbox) remote to the IR signal of the hdmi switch.
-When the stopbutton on the Entone remote is pressed, the switch jumps to the next hdmi input.
+### IR Entone to HDMI Switch gateway ###
+Used to translate the signal from an Entone (T-Mobile settopbox) remote to the IR signal of the hdmi switch.
+When the stop button on the Entone remote is pressed, the switch jumps to the next hdmi input.
+
+### Requirements ###
+- IRremote library
+https://github.com/z3t0/Arduino-IRremote
+- Arduino
+- Wiring
+- 3x1 HDMI Switcher (Aliexpress)
 
 ### Scheme ###
  	
