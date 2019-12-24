@@ -72,15 +72,6 @@ void sendChannel(int channelNr)
   stopSignal();
 }
 
-bool comparePulse(int pulseLength, int expectedVal)
-{
-  int marge = 50;
-  if(pulseLength < (expectedVal + marge) && pulseLength > (expectedVal - marge))
-    return 1;
-  else
-    return 0;
-}
-
 void sendBytes(bool * channel)
 {
 
