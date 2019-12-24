@@ -3,6 +3,8 @@ This code is used to translate the signal from an Entone (T-Mobile settopbox) re
 When the stopbutton on the Entone remote is pressed, the switch jumps to the next hdmi input.
 
 ### Scheme ###
+ 	
+```
 000000000000000
 |Entone Remote|
 000000000000000
@@ -13,3 +15,4 @@ When the stopbutton on the Entone remote is pressed, the switch jumps to the nex
 0000000000000          00000000000          000000000000000
 |IR Receiver| ---[]==> | Arduino | ---[]==> | HDMI Switch | 
 0000000000000          00000000000          000000000000000
+```
