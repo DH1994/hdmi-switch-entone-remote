@@ -15,4 +15,5 @@ When the stopbutton on the Entone remote is pressed, the switch jumps to the nex
 0000000000000          00000000000          000000000000000
 |IR Receiver| ---[]==> | Arduino | ---[]==> | HDMI Switch | 
 0000000000000          00000000000          000000000000000
+                  jack in        jack out
 ```
